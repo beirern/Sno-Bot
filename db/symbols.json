@@ -1,0 +1,101 @@
+{
+    "pn": [
+        "Nicola",
+        "Beethoven",
+        "Abraham Lincoln",
+        "JFK",
+        "Elvis Presley",
+        "Pele",
+        "Michael Jordan",
+        "George Orwell",
+        "Tim Berners Lee"
+    ],
+    "adj": [
+        "big",
+        "super",
+        "spicy",
+        "cranky",
+        "pretentious",
+        "zealous",
+        "humorous",
+        "modern",
+        "quiet",
+        "stale"
+    ],
+    "dp": [
+        "the",
+        "a"
+    ],
+    "n": [
+        "hacker",
+        "vernacular",
+        "ethernet cable",
+        "banana",
+        "unicorn",
+        "sorcerer",
+        "child",
+        "scissors",
+        "television",
+        "intellectual",
+        "palindrome",
+        "lava lamp"
+    ],
+    "tv": [
+        "hit",
+        "hacked",
+        "poked",
+        "cooked",
+        "berated",
+        "shred"
+    ],
+    "iv": [
+        "hacked",
+        "laughed",
+        "wept",
+        "snooped",
+        "smiled",
+        "ran"
+    ],
+    "p": [
+        "on",
+        "in"
+    ],
+    "idk": [
+        "is"
+    ],
+    "sentences": [
+        "hello?",
+        "is my mic working?",
+        "1v1 me for cash right now",
+        "clip this",
+        "what do you mean"
+    ],
+    "insults": [
+        "poo-poo head",
+        "bad person"
+    ],
+    "s": [
+        "<sentence>",
+        "<np> <vp>"
+    ],
+    "np": [
+        "<dp> <adjp> <n>",
+        "<pn>"
+    ],
+    "adjp": [
+        "<adj>",
+        "<adj> <adjp>"
+    ],
+    "vp": [
+        "<tv> <np>",
+        "<tv> <np> <p> <dp> <n>",
+        "<iv>"
+    ],
+    "i": [
+        "<insult>",
+        "<pn> <idk> <dp> <adj> <n>"
+    ],
+    "pi": [
+        "<idk> <dp> <adj> <n>"
+    ]
+}

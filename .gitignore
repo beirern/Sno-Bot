@@ -1,0 +1,6 @@
+# Should ignore <YOUR-GCP-CREDENTIALS>.json
+# Should ignore .env
+node_modules
+.eslintrc
+package-lock.json
+.vscode

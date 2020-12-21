@@ -1,0 +1,1 @@
+Stores the words and parts of speech in symbols.json and different voices in voices.js

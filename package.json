@@ -1,0 +1,28 @@
+{
+  "name": "Sno-Bot",
+  "version": "1.0.0",
+  "description": "A chatbot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "inspect": "nodemon --inspect index.js",
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "author": "Nicola Beirer",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.1.0",
+    "@google-cloud/storage": "^5.7.0",
+    "@google-cloud/text-to-speech": "^2.3.0",
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.0.1"
+  }
+}
